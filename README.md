@@ -1,5 +1,5 @@
 # mtasa-titanbasic-db
-DB-Connect infrastructure for Multi Theft Auto.
+DB-Connect infrastructure for Multi Theft Auto..
 
 MTA Server Starter
 ----------------------------------------

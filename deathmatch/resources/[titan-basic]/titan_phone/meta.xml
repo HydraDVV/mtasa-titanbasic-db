@@ -1,0 +1,158 @@
+<meta>
+	<oop>true</oop>
+	
+	<!--
+		@class MySQL Framework
+		@author Disco
+	-->
+	<script src="frameworks/framework.lua" type="server"/>
+	<script src="frameworks/json.lua" type="server"/>
+
+	<script src="global.lua" type="server" />
+	<script src="global.lua" type="client" cache="false"/>
+	<script src="shared.lua" type="client" cache="false"/>
+	
+	<!--
+		@class Phone
+		@author Disco
+	-->
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" cache="false"/>
+	
+	<script src="apps/client.lua" type="client" cache="false"/>
+	<script src="apps/safari/phone_safari_c.lua" type="client" cache="false"/>
+	<script src="apps/vergi/phone_vergi_c.lua" type="client" cache="false"/>
+	<script src="apps/vergi/phone_vergi_s.lua" type="server" cache="false"/>
+
+	<script src="apps/lsbank/phone_lsbank_c.lua" type="client" cache="false"/>
+	<script src="apps/dial/phone_dial_c.lua" type="client" cache="false"/>
+	<script src="apps/dial/phone_dial_s.lua" type="server" />
+	<script src="apps/spotify/phone_spotify_c.lua" type="client" cache="false"/>
+	<script src="apps/spotify/phone_spotify_s.lua" type="server" />
+	<script src="apps/contacts/phone_contacts_c.lua" type="client" cache="false"/>
+	<script src="apps/contacts/phone_contacts_new_s.lua" type="server" />
+	<script src="apps/contacts/phone_contacts_new_c.lua" type="client" cache="false"/>
+	<script src="apps/contacts/phone_contacts_details_s.lua" type="server" />
+	<script src="apps/contacts/phone_contacts_details_c.lua" type="client" cache="false"/>
+	<script src="apps/history/phone_history_s.lua" type="server" />
+	<script src="apps/history/phone_history_c.lua" type="client" cache="false"/>
+	<script src="apps/hotlines/phone_hotlines_g.lua" type="server" />
+	<script src="apps/hotlines/phone_hotlines_g.lua" type="client" cache="false"/>
+	<script src="apps/hotlines/phone_hotlines_c.lua" type="client" cache="false"/>
+	<script src="apps/hotlines/phone_hotlines_s.lua" type="server" />
+	<script src="apps/settings/phone_settings_s.lua" type="server" />
+	<script src="apps/settings/phone_settings_c.lua" type="client" cache="false"/>
+	<script src="apps/twitter/phone_twitter_s.lua" type="server" />
+	<script src="apps/twitter/phone_twitter_c.lua" type="client" cache="false"/>
+
+	<file src="components/sounds/dispatch.mp3" />
+	<file src="components/sounds/dialing_tone.mp3" />
+	<file src="components/sounds/hangup.mp3" />
+	<file src="components/sounds/busy_tone.mp3" />
+	<file src="components/sounds/invalid_tone.mp3" />
+	<file src="components/sounds/touch_tone.mp3" />
+
+	<file src="components/sounds/ringtones/viberate.mp3" />
+	<file src="components/sounds/ringtones/apple_ring.mp3" />
+	<file src="components/sounds/ringtones/google.mp3" />
+	<file src="components/sounds/ringtones/iphone_5s.mp3" />
+	<file src="components/sounds/ringtones/iphone_6.mp3" />
+	<file src="components/sounds/ringtones/minion_ring_ring.mp3" />
+	<file src="components/sounds/ringtones/perfect_ring_tone.mp3" />
+	<file src="components/sounds/ringtones/sending_you_an_sms.mp3" />
+	<file src="components/sounds/ringtones/sms.mp3" />
+	<file src="components/sounds/ringtones/sms_new.mp3" />
+	<file src="components/sounds/ringtones/sony_xperia_z3.mp3" />
+	<file src="components/sounds/ringtones/sweetest_tone_ever.mp3" />
+	<file src="components/sounds/ringtones/turn_down_for_what.mp3" />
+	<file src="components/sounds/ringtones/vertu_new_tone.mp3" />
+	<file src="components/sounds/ringtones/winggle_wiggle.mp3" />
+
+	<file src="components/sounds/beeps/0.mp3" />
+	<file src="components/sounds/beeps/1.mp3" />
+	<file src="components/sounds/beeps/2.mp3" />
+	<file src="components/sounds/beeps/3.mp3" />
+	<file src="components/sounds/beeps/4.mp3" />
+	<file src="components/sounds/beeps/5.mp3" />
+	<file src="components/sounds/beeps/6.mp3" />
+	<file src="components/sounds/beeps/7.mp3" />
+	<file src="components/sounds/beeps/8.mp3" />
+	<file src="components/sounds/beeps/9.mp3" />
+	
+	<file src="components/images/tick1.png"/>
+	<file src="components/images/tick2.png"/>
+	<file src="components/images/avatar.png"/>
+	<file src="components/images/bg/1.png"/>
+	<file src="components/images/pane.png"/>
+	<file src="components/images/bg/2.png"/>
+	<file src="components/images/iphone_front_status_bar.png"/>
+	<file src="components/images/iphone_front_status_bar1.png"/>
+	<file src="components/images/iphone_front_settings.png"/>
+	<file src="components/images/iphone_front_lsbank.png"/>
+	<file src="components/images/iphone_front_lsbank_logged.png"/>
+	<file src="components/images/iphone_front_twitter.png"/>
+	<file src="components/images/iphone_front_twitter_icon.png"/>
+	<file src="components/fonts/rbold.ttf"/>
+	<file src="components/fonts/regular.ttf"/>
+	<file src="components/fonts/rregular.ttf"/>
+
+	<file src="components/images/appstore.png"/>
+	<file src="components/images/whatsapp.png"/>
+	<file src="components/images/twitter.png"/>
+	<file src="components/images/iphone_front_carshop.png"/>
+	<file src="components/images/iphone_front_vergi.png"/>
+	<file src="components/images/iphone_front_safari.png"/>
+	<file src="components/images/iphone_front_whatsapp.png"/>
+	<file src="components/images/iphone_front_whatsapp_inmessage.png"/>
+	<file src="components/images/iphone_front_whatsapp_details.png"/>
+	<file src="components/images/iphone_front_spotify.png"/>
+	<file src="components/images/iphone_front_uberadmin.png"/>
+	<file src="components/images/iphone_front.png" />
+	<file src="components/images/iphone_front_white.png" />
+	<file src="components/images/iphone_front_X.png" />
+	<file src="components/images/iphone_setup_1.png" />
+	<file src="components/images/iphone_setup_2.png" />
+	<file src="components/images/iphone_setup_3.png" />
+	<file src="components/images/history.png" />
+	<file src="components/images/contacts.png" />
+	<file src="components/images/messages.png" />
+	<file src="components/images/lsbank.png" />
+	<file src="components/images/settings.png" />
+	<file src="components/images/call.png" />
+	<file src="components/images/sms.png" />
+	<file src="components/images/vergi.png" />
+	<file src="components/images/carshop.png" />
+	<file src="components/images/safari.png" />
+	<file src="components/images/spotify.png" />
+	<file src="components/images/save.png" />
+	<file src="components/images/incoming.png" />
+	<file src="components/images/outgoing.png" />
+	<file src="components/images/missed.png" />
+	<file src="components/images/arrow_right.png" />
+	<file src="components/images/arrow_left.png" />
+	<file src="components/images/arrow_right_white.png" />
+	<file src="components/images/arrow_left_white.png" />
+	<file src="components/images/hotlines.png" />
+	<file src="components/images/emails.png" />
+	<file src="components/images/flappy-bird.png" />
+	<file src="components/images/sms_bubble_body_to.png" />
+	<file src="components/images/sms_bubble_body_from.png" />
+	<file src="components/images/sms_bubble_head.png" />
+	<file src="components/images/sms_bubble_tail.png" />
+	<file src="components/images/sms_send.png" />
+
+	<script src="apps/fbird/cFlappy.lua" type="client" cache="false"/>
+	<script src="apps/fbird/cFlappyBirdGame.lua" type="client" cache="false"/>
+	<script src="apps/fbird/cSound.lua" type="client" cache="false"/>
+	<script src="apps/fbird/cTube.lua" type="client" cache="false"/>
+	<script src="apps/fbird/cFlappyUI.lua" type="client" cache="false"/>
+	<script src="apps/fbird/cStart.lua" type="client" cache="false"/>
+	<file src="apps/fbird/files/images/atlas.png" />
+	<file src="apps/fbird/files/sounds/sfx_die.ogg" />
+	<file src="apps/fbird/files/sounds/sfx_hit.ogg" />
+	<file src="apps/fbird/files/sounds/sfx_point.ogg" />
+	<file src="apps/fbird/files/sounds/sfx_swooshing.ogg" />
+	<file src="apps/fbird/files/sounds/sfx_wing.ogg" />
+	<!--<export function="sendSMS" type="server" />-->
+	<oop>true</oop>
+</meta>

@@ -1,0 +1,24 @@
+<meta>
+
+	<!-- @Hanz ped system -->
+
+	<script src="server.lua" type="server"/>
+	<script src="client.lua" type="client" cache="false"/>	
+	<script src="rightclick.lua" type="client" cache="false"/>
+	
+	<script src="shared.lua" type="server"/>
+	<script src="shared.lua" type="client" cache="false"/>
+	
+	<export function="showPedNametag" type="server"/>
+	<export function="showPedNametag" type="client"/>
+	<export function="getPedName" type="server"/>
+	<export function="getPedName" type="client"/>
+	<export function="getRandomName" type="server"/>
+	<export function="getRandomName" type="client"/>
+	<export function="getRandomSkin" type="server"/>
+	<export function="getRandomSkin" type="client"/>
+	<export function="getSkinGender" type="server"/>
+	<export function="getSkinGender" type="client"/>
+
+	
+</meta>

@@ -1,0 +1,8 @@
+<meta>
+	<info author='Hanz'/>
+	<script src='components/server.lua' type='server'/>
+	<script src='components/client.lua' type='client' cache='false'/>
+	<export function="checkAccountBan" type="server"/>
+	<export function="addToBan" type="server"/>
+	<!--addToBan(account, serial, ip, admin, reason)-->
+</meta>	

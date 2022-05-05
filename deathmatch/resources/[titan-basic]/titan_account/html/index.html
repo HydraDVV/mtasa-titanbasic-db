@@ -1,0 +1,50 @@
+<html class=" -webkit-">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet prefetch" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/framework.css">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <div class="box" id="login" style="display: block; z-index: 1;">
+         <img src="images/logo-white.png" class="logo">
+         <div class="form-field">
+            <div class="inputholder">
+               <div class="inputicon" style="background: url(images/user.png) no-repeat scroll;"></div>
+               <input type="text" placeholder="Kullanıcı Adı" id="Lusername" v-model="enteredUsername" onchange="inputChanged()" required="">
+            </div>
+            <div class="inputholder">
+               <div class="inputicon" style="background: url(images/key.png) no-repeat scroll;"></div>
+               <input type="password" placeholder="Şifre" id="Lpassword" v-model="enteredPassword" onchange="inputChanged()" required="">
+            </div>
+               
+
+            <div class="buttongroup">
+               <button class="btn" onclick="logIn(); return false;">Giriş Yap</button>
+               <button class="btn red to" data-to="register" onclick="$('#register').show(); $('#login').hide();" ><i class="fa fa-arrow-right"></i> Hesap Oluştur</button>
+		   </div>
+        </div>
+      </div>
+      <div class="box" id="register" style="display: none; z-index: 1;">
+         <img src="images/logo-white.png" class="logo">
+         <div class="form-field">
+            <div class="inputicon" style="background: url(images/user.png) no-repeat scroll;"></div>
+            <input type="text" placeholder="Kullanıcı Adı" id="Rusername" required="">
+             <div class="inputicon" style="background: url(images/mail.png) no-repeat scroll;"></div>
+            <input type="email" placeholder="Email" id="Remail">           
+			<div class="inputicon" style="background: url(images/key.png) no-repeat scroll;"></div>
+            <input type="password" placeholder="Şifre" id="Rpassword2">
+            <div class="inputicon" style="background: url(images/key.png) no-repeat scroll;"></div>
+            <input type="password" placeholder="Şifre X2" id="Rpassword">
+
+            <button class="btn" onclick="startRegister(); return false;">Hesap Oluştur</button>
+            <button class="btn red to" data-to="login" onclick="$('#login').show(); $('#register').hide();" ><i class="fa fa-arrow-left"></i> Geri Dön</button>
+         </div>
+      </div>
+       <script src="js/jquery.min.js"></script>
+       <script src="js/index.js"></script>
+       <script src="js/framework.js"></script>
+       <script src="js/mtaevents.js"></script>
+       <script src="js/keys.js"></script>
+   </body>
+</html>

@@ -1,0 +1,14 @@
+<meta>
+    <oop>true</oop>
+    <script type="client" src="lua/client.lua" cache="false" />
+    <script type="server" src="lua/server.lua"/>
+    <script type="shared" src="lua/shared.lua"   cache="false" />
+
+    <file src="index.html" type="client" />
+    <file src="css.css" type="client" />
+
+    <file src="js/framework.js"/>
+	<file src="js/mtaevents.js"/>
+	<file src="js/jquery.min.js"/>
+    <file src="fonts/Roboto.ttf"/>
+</meta>

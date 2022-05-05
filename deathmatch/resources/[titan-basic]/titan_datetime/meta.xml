@@ -1,0 +1,20 @@
+<meta>
+    <info author="Hanz" type="script" description="Datetime"/>
+	
+	<script src="datetime_s.lua" type="server"/>
+	<script src="datetime_c.lua" type="client" cache="false"/>
+
+	<script src="datetime_g.lua" type="server"/>
+	<script src="datetime_g.lua" type="client" cache="false"/>
+
+	<export function="formatTimeInterval" type="server" />
+	<export function="formatTimeInterval" type="client" /> 
+	<export function="formatFutureTimeInterval" type="server" /> 
+	<export function="formatFutureTimeInterval" type="client" /> 
+
+	<export function="formatSeconds" type="server" />
+	<export function="formatSeconds" type="client" />
+
+	<export function="now" type="server" />
+	<export function="now" type="client" />
+</meta>

@@ -1,0 +1,14 @@
+<meta>
+	<!-- @Hanz -->
+	 <script src="client.lua" type="client" cache="false" />
+	 
+	 <file src="files/cursor.png" />
+	 <file src="files/h.png" />
+	 <file src="files/sv.png" />
+	 <file src="files/blank.png" />
+	 
+	 <export function="openPicker" type="client" />  
+	 <export function="closePicker" type="client" />  
+	 <export function="isPickerOpened" type="client" /> 
+    <!-- @colorblender -->
+</meta>

@@ -1,0 +1,51 @@
+<meta>
+	<oop>true</oop>
+
+    <script src="client.lua" type="client" cache="false"/>
+	
+	<file src="components/written.png"/>
+	<file src="components/afk.png"/>
+	<file src="components/seatbelt.png"/>
+	<file src="components/window2.png"/>
+	<file src="components/helmet.png"/>
+	<file src="components/mask.png"/>
+	<file src="components/gasmask.png"/>
+	<file src="components/bandana.png"/>
+	<file src="components/rparti.png"/>
+	<file src="components/badge1.png"/>
+	<file src="components/cigarette.png"/>
+	<file src="components/armour.png"/>
+	<file src="components/bleeding.png"/>
+	<file src="components/lowhp.png"/>
+	<file src="components/dglock.png"/>
+	<file src="components/handcuffs.png"/>
+	<file src="components/rehber_on.png"/>
+	<file src="components/trialadm_on.png"/>
+	<file src="components/a1_on.png"/>
+	<file src="components/a2_on.png"/>
+	<file src="components/a3_on.png"/>
+	<file src="components/a7_on.png"/>
+	<file src="components/udy_on.png"/>
+	<file src="components/leadadm.png"/>
+	<file src="components/headadm.png"/>
+	<file src="components/health.png"/>
+	<file src="components/head_turning.png"/>
+	<file src="components/phone.png"/>
+	<file src="components/cc.png"/>
+	<file src="components/headlights.png"/>
+	<file src="components/carlock.png"/>
+	<file src="components/boathandbrake.png"/>
+	<file src="components/donatorEtiketi3.png"/>
+	<file src="components/youtuberEtiketi.png"/>
+
+	<file src="components/vip1.png"/>
+	<file src="components/vip2.png"/>
+	<file src="components/vip3.png"/>
+	<file src="components/vip4.png"/>
+
+	<file src="components/microphone.png"/>
+	<file src="components/developeradm.png"/>
+	<file src="components/3rdParty_Developer.png"/>
+	
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

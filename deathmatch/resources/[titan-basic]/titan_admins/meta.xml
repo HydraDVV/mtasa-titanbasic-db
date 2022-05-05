@@ -1,0 +1,119 @@
+<meta>
+	<!-- @Hanz -->
+
+    <info author="Roleplay - Hanz" type="script" description="Admin System" />
+    
+	<script src="general/adminjail/client.lua" type="client" cache="false" />    
+    <script src="general/c_weapon_creator.lua" type="client" cache="false" />
+    <script src="general/commands/client.lua" type="client" cache="false" />
+    <script src="donator.lua" type="server" />
+    <script src="s_privates.lua" type="server" />
+    <script src="youtuber.lua" type="server" />
+	
+    <script src="general/commands/server.lua" type="server" />
+    <script src="general/s_ck.lua" type="server" />
+    <script src="addons/teleport/teleport.lua" type="server" />
+    <script src="addons/teleport/server.lua" type="server" />
+    <script src="general/s_licenses.lua" type="server" />
+    <script src="general/adminjail/server.lua" type="server" />
+    
+	<script src="addons/roldersi.lua" type="server" />
+
+	
+    <script src="addons/fly/client.lua" type="client" cache="false" />
+    <script src="addons/fly/server.lua" type="server" />
+    <export function="timerUnjailPlayer" type="server" />
+    
+    <file src="components/Roboto-Regular.ttf" />
+    <file src="components/Roboto.ttf" />
+    
+	<script src="addons/interior/server.lua" type="server" />
+    <script src="addons/resource/server.lua" type="server" />
+    
+    <script src="addons/staffmanagement/staff_manager_s.lua" type="server" />
+    <script src="addons/staffmanagement/staff_manager_c.lua" type="client" cache="false" />
+    <script src="addons/staffmanagement/staff_manager_g.lua" type="server" />
+    <script src="addons/staffmanagement/staff_manager_g.lua" type="client" cache="false" />	
+	
+    <file src="components/sounds/pmsound.wav" />
+    <file src="components/sounds/woman.mp3" />
+    <file src="components/sounds/nudge.wav" />	
+	
+    <script src="general/watch/server.lua" type="server" />
+    <script src="general/watch/client.lua" type="client" cache="false" />
+    
+    <script src="general/g_history.lua" type="server" />
+    <script src="general/g_history.lua" type="client" cache="false" />
+    
+    <script src="general/recon/server.lua" type="server" />
+    <script src="general/recon/client.lua" type="client" cache="false" />
+    
+	<script src="general/recon/shower/server_spec.lua" type="server" />
+    <script src="general/recon/shower/client_spec.lua" type="client" cache="false" />
+      
+    <script src="general/c_ped_voices.lua" type="client" cache="false" />
+    <script src="general/c_mark.lua" type="client" cache="false" />
+    
+    <script src="s_check.lua" type="server" />
+    <script src="c_check.lua" type="client" cache="false" />
+	
+    <file src="components/assets/search.png" />
+	<file src="components/assets/weapons/ammo.png" />
+    <file src="components/assets/weapons/gun.png" />
+        
+    <script src="c_overlay.lua" type="client" cache="false" />
+
+    <script src="s_others.lua" type="server" />
+    
+    <settings>
+        <setting name="*fist" value="disabled" />
+        <setting name="*brassknuckle" value="2" />
+        <setting name="*golfclub" value="0" />
+        <setting name="*nightstick" value="0" />
+        <setting name="*knife" value="0" />
+        <setting name="*bat" value="0" />
+        <setting name="*shovel" value="0" />
+        <setting name="*poolstick" value="0" />
+        <setting name="*katana" value="2" />
+        <setting name="*chainsaw" value="0" />
+        <setting name="*dildo" value="2" />
+        <setting name="*dildo2" value="2" />
+        <setting name="*vibrator" value="2" />
+        <setting name="*vibrator2" value="2" />
+        <setting name="*flower" value="2" />
+        <setting name="*cane" value="0" />
+        <setting name="*grenade" value="2" />
+        <setting name="*teargas" value="2" />
+        <setting name="*molotov" value="2" />
+        <setting name="*colt45" value="17" />
+        <setting name="*silenced" value="17" />
+        <setting name="*deagle" value="7" />
+        <setting name="*shotgun" value="10" />
+        <setting name="*sawed-off" value="20" />
+        <setting name="*combatshotgun" value="30" />
+        <setting name="*uzi" value="50" />
+        <setting name="*mp5" value="30" />
+        <setting name="*ak-47" value="30" />
+        <setting name="*m4" value="50" />
+        <setting name="*tec-9" value="50" />
+        <setting name="*rifle" value="10" />
+        <setting name="*sniper" value="5" />
+        <setting name="*rocketlauncher" value="5" />
+        <setting name="*spraycan" value="0" />
+        <setting name="*fireextinguisher" value="0" />
+        <setting name="*camera" value="0" />
+        <setting name="*nightvision" value="2" />
+        <setting name="*infrared" value="2" />
+        
+        <setting name="*maxAmountOfAmmopacks" value="200" />
+        <setting name="*maxAmountOfWeapons" value="100" />
+    </settings>
+    
+    <export function="getAmmoPerClip" type="server" />
+    <export function="canPlayerAccessStaffManager" type="server" />
+    <export function="canPlayerAccessStaffManager" type="client" />
+    <export function="toggleRecon" type="client" />
+    <export function="addAdminHistory" type="server" http="true" />
+    <!-- addAdminHistory(user, admin, reason, action, duration) user and admin can be player elements or userids; action and duration are optional -->
+    <min_mta_version server="1.5.5-9.14060"></min_mta_version>
+</meta>

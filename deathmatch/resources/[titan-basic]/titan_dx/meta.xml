@@ -1,0 +1,11 @@
+<meta>
+	<!-- @Hanz #forked:blueMTA -->
+    <oop>true</oop>
+    <script src="tooltipC.lua" type="client" cache="false"></script>
+    <script src="logoC.lua" type="client" cache="false"></script>
+    <export function="drawTooltip" type="client"></export>
+    <export function="createLogoAnimation" type="client"></export>
+    <export function="updateLogoPos" type="client"></export>
+    <export function="getLogoPosition" type="client"></export>
+    <export function="stopLogoAnimation" type="client"></export>
+</meta>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="main" id = "mains">
+        <div class="header">
+            <div class="header text" id="headers">Araç Galerisi</div>
+            <div class="footer" id="vehicles">
+				
+			</div>
+
+        </div>
+        <div class="vehicle_buy" onClick='mta.triggerEvent("vehicle_buy")'>Satın Al</div>
+        <div class="vehicle_buy red" onclick='mta.triggerEvent("destroy:window")'>Arayüzü Kapat</div>
+    </div>
+    <div class="vehicle_info" style="display: none;" id="vehicle_info">
+        <hr>
+        <div style="text-align: left; margin-left: 6px; font-size: 14px;" >Fiyat: <a id="veh_price"></a><a> ₺</a></div>
+        <div style="text-align: left; margin-left: 6px; font-size: 14px;" >Vergi: <a id="veh_tax"></a><a> ₺</a></div>
+        <hr>
+    </div>
+</body>
+
+<script src='js/jquery.min.js'></script>
+<script src="js/framework.js"></script>
+<script src="js/mtaevents.js"></script>
+
+<script>
+    function addRow(brand, gta, price, header, id) {
+        if (brand) {
+            $("#vehicles").append("<button class='vehicles' onClick='selectVehicle(" + id + ")'>" + brand + "<a>" + gta + "</a><div>" + price + "₺</div></button>");
+        };
+        if (header) {
+            document.getElementById("headers").innerHTML = header;
+        };
+    }
+
+    function selectVehicle(id) {
+        mta.triggerEvent("selectVehicle", id)
+    }
+	
+	function clear () {
+		document.getElementById("vehicles").remove();
+		$("#mains").append("<div class='footer' id='vehicles'></div>");
+	}
+</script>
+
+</script>
+
+</html>

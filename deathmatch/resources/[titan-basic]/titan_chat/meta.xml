@@ -1,0 +1,18 @@
+<meta>
+	<script src="server.lua" type="server"/>
+	<script src="client.lua" type="client" cache="false"/>
+	<script src="bubble.lua" type="client" cache="false"/>
+
+	<script src="status/s_status.lua" type="server"/>
+	<script src="status/c_status.lua" type="client" cache="false"/>	
+	
+	<script src="status/s_ame.lua" type="server"/>
+	<script src="status/c_Ame.lua" type="client" cache="false"/>	
+
+	<export function="trunklateText" type="server"/>
+	<export function="localIC" type="server"/>
+	<export function="districtIC" type="server"/>
+	<export function="localShout" type="server"/>
+	<export function="departmentradio" type="server"/>
+	<file src="sound/pmSoundFX.wav" />
+</meta>

@@ -1,0 +1,12 @@
+<meta>
+	<!-- data system @Hanz -->
+	
+	<script src="general.lua" type="shared"/>
+	<export function="save" type="shared" />
+	<export function="load" type="shared" />
+	
+	<script src="savereport.lua" type="server"/>
+	<export function="saveReports" type="server" />
+	<export function="loadReports" type="server" />
+	
+</meta>

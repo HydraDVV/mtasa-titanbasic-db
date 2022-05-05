@@ -1,0 +1,19 @@
+<meta>
+	<!-- @author:Hanz  @anticheat system -->
+	
+	<script src="client.lua" type="client" cache="false"/>
+	<script src="server.lua" type="server"/>
+
+	<script src="elements/server.lua" type="server"/>
+	<script src="elements/client.lua" type="client" cache="false"/>
+
+	<export function="changeProtectedElementDataEx" type="server"/>
+	<export function="setEld" type="shared"/>
+
+	<export function="changeProtectedElementData" type="server"/>
+	<export function="changeEld" type="server"/>
+
+	<export function="protectElementData" type="server"/>
+	<export function="allowElementData" type="server"/>
+	<export function="fetchH" type="server"/>
+</meta>

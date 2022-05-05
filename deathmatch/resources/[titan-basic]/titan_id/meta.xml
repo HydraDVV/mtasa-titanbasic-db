@@ -1,0 +1,5 @@
+<meta>
+	<!-- @Hanz id system -->
+
+	<script src="server.lua" type="server" />
+</meta>

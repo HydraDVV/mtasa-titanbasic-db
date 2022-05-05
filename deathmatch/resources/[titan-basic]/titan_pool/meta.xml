@@ -1,0 +1,17 @@
+<meta>
+	<!-- @Hanz -->
+	
+	<script src="server/s_pool.luac" type="server"/>
+	<script src="connection.lua" type="shared"/>
+
+	<export function="allocateElement" type="server"/>
+	<export function="getPoolElementsByType" type="server"/>
+	<export function="getElement" type="server"/>
+	
+	<export function="getServerSyntax" type="client"/>
+	<export function="getServerSyntax" type="server"/>
+	
+	<export function="getServerName" type="client"/>
+    <export function="getServerName" type="server"/>	
+	<oop>true</oop>
+</meta>

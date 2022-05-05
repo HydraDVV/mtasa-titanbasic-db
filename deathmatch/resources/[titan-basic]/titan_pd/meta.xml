@@ -1,0 +1,91 @@
+<meta>
+    <info author="Roleplay Scripting Team - Hanz" type="script" description="PD System" />
+ 	<oop>true</oop>	
+   
+	<!--
+	
+		@author:Hanz
+		
+	-->
+	
+	<script src="telsiz/client.lua" type="client" cache="false"/>
+	<script src="telsiz/server.lua" type="server"/>
+
+	<script src="callsign/client.lua" type="client" cache="false"/>
+	<script src="callsign/server.lua" type="server"/>
+
+	<script src="serit/client.lua" type="client" cache="false"/>
+	<script src="serit/server.lua" type="server"/>
+	<file src="serit/components/policeline.png"/>
+	
+    <script src="s_surukle.lua" type="server" />
+    <script src="s_aracat.lua" type="server" />
+	
+    <script src="s_kucak.lua" type="server" />
+    <script src="c_kucak.lua" type="client" cache="false" />	
+	
+    <script src="s_semi.lua" type="server" />
+    <script src="c_semi.lua" type="client" cache="false" />
+    
+    <script src="s_headlights.lua" type="server" />
+    <script src="c_headlights.lua" type="client" cache="false" />
+  
+    <script src="s_kelepcekir.lua" type="server" />
+	
+    <script src="s_bantla.lua" type="server" />
+    <script src="c_bantla.lua" type="client" cache="false" />
+ 
+    <script src="c_radiocodes.lua" type="client" cache="false" />
+    <script src="s_radiocodes.lua" type="server" />
+    
+    <script src="c_dispatch.lua" type="client" cache="false" />
+    
+    <script src="s_sirens.lua" type="server" />
+    <script src="c_sirens.lua" type="client" cache="false" />
+    <file src="siren.wav" />
+    
+    <script src="s_strobes.lua" type="server" />
+    <script src="c_strobes.lua" type="client" cache="false" />
+    
+    <script src="s_pdped.lua" type="server" />
+    
+    <script src="s_policecommands.lua" type="server" />
+    <script src="c_policejail.lua" type="client" cache="false" />
+    <script src="s_policejail.lua" type="server" />
+    
+    <export function="timerPDUnjailPlayer" type="server" />
+    <export function="switchMode" type="client" cache="false" />
+    
+    <script src="s_policedeagle.lua" type="server" />
+    <script src="c_policedeagle.lua" type="client" cache="false" />
+    
+    <script src="s_policeshotgun.lua" type="server" />
+    <script src="c_policeshotgun.lua" type="client" cache="false" />
+    
+    <script src="s_policetazer.lua" type="server" />
+    
+    <script src="c_shield.lua" type="client" cache="false" />
+    
+    <!--<script src="c_blips.lua" type="client" cache="false"/>-->
+    
+    <script src="c_backup.lua" type="client" cache="false" />
+    <script src="s_backup.lua" type="server" />
+    
+    <script src="s_police_garage.lua" type="server" />
+    
+    <script src="fastrope/s_fastrope.lua" type="server" />
+    <script src="fastrope/c_fastrope.lua" type="client" cache="false" />
+    
+    <script src="c_lasers.lua" type="client" cache="false" />
+    <script src="s_lasers.lua" type="server" />
+    
+    <script src="helicopters/s_helicopters.lua" type="server" />
+    
+    <script src="c_prisonnpcs.lua" type="server" />
+    <script src="s_speedcam.lua" type="server" />
+    
+    <file src="riot_shield.dff" />
+    <file src="riot_shield.txd" />
+    <file src="riot_shield.col" />
+    <min_mta_version server="1.3.4-0.00000" client="1.3.4-0.00000"></min_mta_version>
+</meta>

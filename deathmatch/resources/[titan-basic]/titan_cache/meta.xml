@@ -1,0 +1,35 @@
+<meta>
+
+	<!-- @Hanz cache system -->
+	
+	<script src="names/usernames/usernames_s.lua" type="server"/>
+	<script src="names/usernames/usernames_c.lua" type="client" cache="false"/>
+	
+	<export function="getUsername" type="server"/>
+	<export function="getUsername" type="client"/>
+
+	<export function="getUsernameFromId" type="server"/>
+
+	<script src="names/characternames/characternames_s.lua" type="server"/>
+	<script src="names/characternames/characternames_c.lua" type="client" cache="false"/>
+	
+	<export function="getCharacterNameFromID" type="server"/>
+	<export function="getCharacterNameFromID" type="client"/>
+
+	<export function="checkUsernameExistance" type="server"/>
+	<export function="checkUsernameExistance" type="client"/>
+
+	<script src="factions/server.lua" type="server"/>
+	<script src="factions/client.lua" type="client" cache="false"/>
+
+	<export function="getFactionNameFromId" type="server"/>
+	<export function="getFactionNameFromId" type="client"/>
+	
+	<script src="names/server.lua" type="server"/>
+	<export function="clearCharacterCache" type="server"/>
+	<export function="clearCharacterName" type="server"/>
+	<export function="getCharacterName" type="server"/>
+	<export function="stats" type="server"/>
+
+	<export function="getAccountFromCharacterId" type="server"/>
+</meta>

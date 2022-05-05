@@ -1,0 +1,45 @@
+<meta>
+
+	<oop>true</oop>
+    <script src="server.lua" type="server" />
+    
+    <script src="funfair/fishing/job.lua" type="server" />
+    <script src="funfair/fishing/client.lua" type="client" cache="false" />
+    <script src="funfair/fishing/server.lua" type="server" />
+    
+    <script src="trucker.lua" type="server" />
+
+    <script src="cigaratte/client.lua" type="client" cache="false" />
+    <script src="cigaratte/server.lua" type="server" />
+ 
+    <script src="woodcutter/client.lua" type="client" cache="false" />
+    <script src="woodcutter/server.lua" type="server" />
+ 
+    <script src="smuggling/client.lua" type="client" cache="false" />
+    <script src="smuggling/server.lua" type="server" />
+        
+    <script src="mechanic/s_mechanic_job.lua" type="server" />
+    <script src="mechanic/s_mechanic_previews.lua" type="server" />
+    <script src="mechanic/c_mechanic_job.lua" type="client" cache="false" />
+
+    <script src="trash/c_trash.lua" type="client" cache="false" />
+    <script src="trash/s_trash.lua" type="server" /> 
+	
+	<script src="kamyon/g_truck1_routes.lua" type="client" cache="false"/>
+	<script src="kamyon/g_truck1_routes.lua" type="server"/>
+	<script src="kamyon/c_truck1_job.lua" type="client" cache="false"/>
+	<script src="kamyon/s_truck1_job.lua" type="server"/>
+    
+	<script src="shared.lua" type="client" />
+    <script src="shared.lua" type="server" />
+	
+    <export function="fetchJobInfoForOnePlayer" type="server" />
+    <export function="getTruckCapacity" type="server" />
+    <export function="remoteOrderSupplies" type="server" />
+    <export function="displayTruckerJob" type="client" />
+    <export function="resetTruckerJob" type="client" />		
+    <export function="getJobTitleFromID" type="server" />
+    <export function="getJobTitleFromID" type="client" />
+    
+	
+</meta>

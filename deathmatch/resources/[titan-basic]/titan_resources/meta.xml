@@ -1,0 +1,19 @@
+<meta>
+
+	<file src="fonts/BizNote.ttf"/>
+	<file src="fonts/nametags0.ttf"/>
+	
+	<file src="sounds/inv_close.mp3"/>
+	<file src="sounds/inv_open.mp3"/>
+	<file src="sounds/inv_toggle.mp3"/>
+	<file src="sounds/item_drop.mp3"/>
+	<file src="sounds/hb_on.mp3"/>
+	<file src="sounds/hb_off.mp3"/>
+	<file src="sounds/toggle.mp3"/>
+
+	<file src="images/window_title.jpg"/>
+	<file src="images/window_body.jpg"/>
+	<file src="images/window_body.png"/>
+	<file src="images/window_title.png"/>
+
+</meta>

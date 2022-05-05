@@ -1,0 +1,39 @@
+<meta>
+
+	<script src="s_notif.lua" type="server" />
+       <script src="c_notif.lua" type="client" cache="false" />
+
+	<script src="s_old_friends.lua" type="server" />
+	<script src="c_old_friends.lua" type="client" cache="false" />
+	
+	<script src="g_friends.lua" type="server" />
+	<script src="g_friends.lua" type="client" cache="false" />
+	<script src="s_friends.lua" type="server" />
+	<script src="c_friends.lua" type="client" cache="false" />
+	
+	<script src="s_player_rightclick.lua" type="server"/>
+	<script src="c_player_rightclick.lua" type="client" cache="false"/>
+	
+	<file src="segoeuil.ttf" />
+	<export function="cfriskPlayer" type="client"/>
+	<export function="caddFriend" type="client"/>
+	<export function="cremoveFriend" type="client"/>
+	<export function="crestrainPlayer" type="client"/>
+	<export function="cunrestrainPlayer" type="client"/>
+	<export function="cBlindfold" type="client"/>
+	<export function="cremoveBlindfold" type="client"/>
+	<export function="fTakeFromStretcher" type="client"/>
+	<export function="fLayOnStretcher" type="client"/>
+	<export function="toggleCursor" type="client"/>
+	<export function="isFriendOf" type="shared"/>
+	<export function="formatTimeInterval" type="client"/>
+	
+	
+	<export function="showPlayerInfo" type="client"/>
+
+	<script src="g_look.lua" type="server"/>
+	<script src="g_look.lua" type="client"/>
+	<script src="s_look.lua" type="server"/>
+	<script src="c_look.lua" type="client" cache="false"/>
+	
+</meta>

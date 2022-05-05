@@ -1,0 +1,13 @@
+<meta>
+	
+	<!-- @Hanz -->
+
+    <script src="client.lua" type="client" cache="false" />
+    <script src="S_stats.lua" type="server" />
+    <script src="S_attach.lua" type="server" />
+    <script src="C_attach.lua" type="client" cache="false" />
+    <script src="c_fd_extinguisher.lua" type="client" cache="false" />
+    <script src="s_fd_extinguisher.lua" type="server" />
+
+    <min_mta_version client="1.3.0-9.04134"></min_mta_version>
+</meta>

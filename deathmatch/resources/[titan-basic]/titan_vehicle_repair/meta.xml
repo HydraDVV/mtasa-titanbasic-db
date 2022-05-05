@@ -1,0 +1,4 @@
+<meta>
+<info author="Roona" description="asd" version="1.0" type="script" />
+	<script src="server.lua" type="server" />
+</meta>
